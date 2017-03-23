@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import App from './views/App';
+
+injectTapEventPlugin();
 
 ReactDOM.render(
-  (
-    <div>
-      Hello World!
-    </div>
-  ),
+  (<App/>),
   document.getElementById('app')
 );
