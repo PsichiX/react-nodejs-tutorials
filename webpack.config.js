@@ -9,7 +9,8 @@ var config = {
   entry: APP_DIR + '/index.js',
   module: {
     loaders: [
-      { test : /\.jsx?$/, include : APP_DIR, loader : 'babel-loader' }
+      { test : /\.jsx?$/, include : APP_DIR, loader : 'babel-loader' },
+      { test: /\.json$/, loader: 'json-loader'}
     ]
   },
   output: {

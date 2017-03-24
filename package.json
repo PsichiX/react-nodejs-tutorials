@@ -31,9 +31,11 @@
     "babel-preset-es2017": "^6.22.0",
     "babel-preset-react": "^6.23.0",
     "copy-webpack-plugin": "^4.0.1",
+    "json-loader": "^0.5.4",
     "material-ui": "^0.17.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-markdown": "^2.4.6",
     "react-tap-event-plugin": "^2.0.1",
     "webpack": "^2.3.1"
   }
